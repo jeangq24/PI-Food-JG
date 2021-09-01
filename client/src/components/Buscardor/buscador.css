@@ -1,0 +1,46 @@
+.contenedorBuscador {
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  border: none; 
+  border-bottom: 7px groove #ffffff;
+}
+.buscadorF {
+  padding: 30px;
+}
+.labelBuscador{
+    font-size: xx-large;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px #ffffff;
+    font-family: Fantasy;
+}
+
+#inputBuscador{
+    width: 300px;
+  font-size: x-large;
+  border: none;
+  border-bottom: 7px double #eec201;
+  margin-left: 20px;
+  background-color: #292929;
+  color: beige;
+  font-family: Fantasy;
+  -webkit-text-stroke: 0.5px #ffffff;
+  box-shadow: 0px 0px 3px 3px  #a5a5a5;
+}
+#inputBuscador:hover{
+    background-color: rgb(41, 68, 68);
+}
+
+.contenedorIMG{
+    background-image: url("../../FFood5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -65px;
+    box-shadow: 0px 0px 3px 3px  #727171;
+    
+}
+

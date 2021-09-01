@@ -1,0 +1,123 @@
+.ContenedorBotones {
+  display: flex;
+  justify-content: center;
+}
+
+.ContenedorRecipes {
+    box-sizing: border-box;
+    
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.botonAnterior{
+    width: 130px;
+height: 40px;
+font-family: initial;
+background-color: #292929;
+color: #ffffff;
+border: none;
+font-family: Fantasy;
+font-size: 15px;
+border-bottom: 7px double #eec201;
+border-radius: 20px;
+margin: 40px;
+margin-bottom: 20px;
+-webkit-text-stroke: 0.5px #ffffff;
+box-shadow: 0px 0px 3px 3px  #a5a5a5; 
+
+}
+
+.botonAnterior:hover{
+    background-color: #eec201;
+    border-bottom: 7px double #ffffff;
+    box-shadow: 0px 0px 5px 5px  #292929; 
+    color: #292929;
+    -webkit-text-stroke: 0.5px #292929
+}
+
+.botonSiguiente{
+    width: 130px;
+height: 40px;
+font-family: initial;
+background-color: #292929;
+color: #ffffff;
+border: none;
+font-family: Fantasy;
+font-size: 15px;
+border-bottom: 7px double #eec201;
+border-radius: 20px;
+margin: 40px;
+margin-bottom: 20px;
+-webkit-text-stroke: 0.5px #ffffff;
+box-shadow: 0px 0px 3px 3px  #a5a5a5; 
+}
+
+.botonSiguiente:hover{
+    background-color: #eec201;
+    border-bottom: 7px double #ffffff;
+    box-shadow: 0px 0px 5px 5px  #292929; 
+    color: #292929;
+    -webkit-text-stroke: 0.5px #292929
+}
+
+.botonReset{
+    width: 130px;
+height: 40px;
+font-family: initial;
+background-color: #292929;
+color: #ffffff;
+border: none;
+font-family: Fantasy;
+font-size: 15px;
+border-bottom: 7px double #eec201;
+border-radius: 20px;
+margin: 40px;
+margin-bottom: 20px;
+-webkit-text-stroke: 0.5px #ffffff;
+box-shadow: 0px 0px 3px 3px  #a5a5a5; 
+}
+
+.botonReset:hover{
+    background-color: #eec201;
+    border-bottom: 7px double #ffffff;
+    box-shadow: 0px 0px 5px 5px  #292929; 
+    color: #292929;
+    -webkit-text-stroke: 0.5px #292929
+}
+
+.filtrados{
+    width: 130px;
+height: 40px;
+font-family: initial;
+background-color: #292929;
+color: #ffffff;
+border: none;
+font-family: Fantasy;
+font-size: 15px;
+border-bottom: 7px double #eec201;
+border-radius: 20px;
+margin: 40px;
+margin-bottom: 20px;
+-webkit-text-stroke: 0.5px #ffffff;
+box-shadow: 0px 0px 3px 3px  #a5a5a5; 
+}
+
+.filtrados:hover{
+    background-color: #eec201;
+    border-bottom: 7px double #ffffff;
+    box-shadow: 0px 0px 5px 5px  #292929; 
+    color: #292929;
+    -webkit-text-stroke: 0.5px #292929
+}
+
+/* .ContenedorRecetas{
+    padding: 50px;
+margin: 50px;
+display: flex;
+justify-content: center;
+flex-flow: wrap;
+background-image: url("https://images3.alphacoders.com/941/94135.jpg");
+} */

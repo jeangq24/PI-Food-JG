@@ -1,0 +1,38 @@
+.contenedorAdd{
+ 
+ display: flex;
+ justify-content:space-between;
+ align-content: center ;
+ padding-top: 20px;
+}
+.botonAdd{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    background-color: #292929;
+    color: antiquewhite;
+    border: none;
+    width:150px;
+    font-size:larger;
+    padding: 4px;
+    font-family: Arial, Helvetica, Fantasy;
+    border-bottom: 9px double #eec201;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px  #a5a5a5; 
+    -webkit-text-stroke: 0.5px #ffffff;
+    align-content: center;
+    
+}
+
+.botonAdd:hover{
+    
+        background-color: #eec201;
+        border-bottom: 7px double #ffffff;
+        box-shadow: 0px 0px 5px 5px  #292929; 
+        color: #292929;
+        -webkit-text-stroke: 0.5px #292929
+    
+}
+
+
+

@@ -1,0 +1,119 @@
+.formulario{
+    background-image: url('../../FFood5.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    box-sizing: border-box;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    
+  
+}
+
+.contenedorFormulario{
+    
+width: 100%;
+display: flex;
+flex-flow: column;
+align-items: safe;
+text-align: center;
+justify-content: center;
+font-family: Fantasy;
+align-items:center
+
+}
+
+.selectCorret{
+    border: none;
+    border-bottom: 6px double #eec201;
+    background-color: #292929;
+    color: beige;
+    -webkit-text-stroke: 0.5px #ffffff;
+    box-shadow: 0px 0px 3px 3px  #0e8103; 
+    font-family: Fantasy;
+}
+.selectFail{
+    border: none;
+    border-bottom: 6px double #eec201;
+    background-color: #46030386;
+    color: beige;
+    -webkit-text-stroke: 0.5px #ffffff;
+    box-shadow: 0px 0px 3px 3px  #af0000; 
+    font-family: Fantasy;
+}
+
+p{
+    padding: 0px;
+    margin-top: 4pX;
+    color:#af0000;
+    -webkit-text-stroke: 0.5px #af0000;
+
+}
+
+.InputCorrect{
+    border: none;
+    border-bottom: 6px double #eec201;
+    background-color: #292929;
+    color: beige;
+    -webkit-text-stroke: 0.5px #ffffff;
+    box-shadow: 0px 0px 3px 3px  #0e8103;
+}
+
+.InputFail{
+    border: none;
+    border-bottom: 6px double #eec201;
+    background-color: #46030386;
+    color: beige;
+    -webkit-text-stroke: 0.5px #616161;
+    box-shadow: 0px 0px 3px 3px  #af0000;
+}
+
+.titulos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Fantasy;
+    color: rgb(231, 153, 133);
+    -webkit-text-stroke: 0.5px rgb(231, 153, 133);
+}
+
+.contedorBotonesFinales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botonesFinales{
+    font-size: 10px;
+    margin: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #292929;
+    color: antiquewhite;
+    border: none;
+    font-family: Fantasy;
+    border-bottom: 6px double #eec201;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px  #a5a5a5; 
+    -webkit-text-stroke: 0.5px #ffffff;
+    align-content: center;
+}
+.botonesFinales:hover{
+    background-color: #eec201;
+    border-bottom: 6px double #ffffff;
+    box-shadow: 0px 0px 3px 3px  #292929; 
+    color: #292929;
+    -webkit-text-stroke: 0.5px #292929;
+    font-family: Fantasy;
+}
+
+h1{
+    padding: 0px;
+    margin-top: 4pX;
+    color:#0e8103;
+    -webkit-text-stroke: 0.5px #0e8103;
+
+}

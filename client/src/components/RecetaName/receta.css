@@ -1,0 +1,67 @@
+.ContenedorRecetaIndividual{
+    background: url('../../FFood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 330px;
+    align-items: center;
+    padding-top: 0px;
+    margin: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px  rgb(29, 29, 29);
+    -webkit-text-stroke: 1.5px #292929;
+    font-family: Fantasy;
+    font-size: 19px;
+    
+}
+
+
+.ContenedorRecetaIndividual:hover{
+   padding: 0px;
+    background: rgba(224, 202, 3, 0.473);
+    color: black;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 5px  #fdfdfd;
+    border: 9px double #eec201;
+    -webkit-text-stroke: 1.5px #292929;
+ 
+}
+
+.tituloDieta{
+    margin-bottom: 1px;
+    margin-top: 1px;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
+
+.contenidoDieta{
+    margin-top: 1px;
+    margin-bottom: 9px;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
+.contenedorImagen{
+    width: 150px;
+    border-radius: 10px;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
+.tituloPuntaje{
+    margin-bottom: 1px;
+    margin-top: 1px;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
+.contenidoPuntaje{
+    margin-top: 1px;
+    margin-bottom: 9px;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
+
+.text-link{
+    color: inherit;
+    text-decoration: inherit;
+}

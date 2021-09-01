@@ -10,6 +10,8 @@ const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
+
+sequelize.authenticate().then( () => {console.log('###|--> Conexion Establecida <--|###')}, (e) => {console.log('%%%-->Conexion Denegada<--%%%\n'+e)})
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
@@ -30,11 +32,16 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { Recipe } = sequelize.models;
+console.log(sequelize.models)
+const { Recipe, Type_diet } = sequelize.models;
 
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);
 
+//Se crean funciones Receta.addTipo_dieta && Receta.getTipo_dieta
+ Recipe.belongsToMany(Type_diet, {through: "recipe_type_diet"}) //Una receta pueden ser parte de muchos tipos de dieta en simultaneo
+ Type_diet.belongsToMany(Recipe, {through: "recipe_type_diet"}) //Un tipo de dieta puede contener muchas recetas
+ console.log(sequelize.models)
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
   conn: sequelize,     // para importart la conexión { conn } = require('./db.js');
